@@ -1,0 +1,61 @@
+	<div class="col-md-7 ab-left">
+				  <div class="grid">
+			        <div class="h-f  wow slideInRight"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+					<img src="images/s4.jpg" alt="img25"/>
+						<figcaption>
+							<h4>Ya-Ya <span>Salgados</span></h4>
+							<p>05</p>
+							
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="h-f  wow slideInRight"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+						<img src="images/s3.jpg" alt="img25"/>
+						<figcaption>
+							<h4>Ya-Ya <span>Salgados</span></h4>
+							<p>06</p>
+						
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="clearfix"> </div>
+				 </div>
+			   </div>
+					<div class="clearfix"> </div>
+			 </div>
+			  <!--//about-section2-->
+			</div>
+	     </div>
+<!--//products-->
+<!-- service-type-grid -->
+	
+						<h4></h4>
+						 <p></p>
+					</div>
+					
+					
+					<div class="col-md-3 services-gd text-center wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a href="#" class="hi-icon"><img src="images/serve2.png" alt=" " /></a>
+						</div>
+						<h4></h4>
+						 <p></p>
+					</div>
+
+					<div class="clearfix"> </div>		
+				</div>
+
+		</div>
+	</div>
+		<div class="col-md-3 s-2 wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+		<a href="#">
+	 		   	
+				<div class="clearfix"></div>
+		     </div>
+	 	    </div>
+	 	</div>
+	<!--end-team-->

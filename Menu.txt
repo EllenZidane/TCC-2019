@@ -1,0 +1,156 @@
+!--Gallery-->
+<div class="menu" id="menu">
+	<div class="container">
+		<h3 class="tittle">Menu</h3>
+		<div class="arrows-serve"><img src="images/border.png" alt="border"></div>
+				<div class="gallery-grids">
+					<div class="col-md-6 baner-top wow fadeInRight animated" data-wow-delay=".5s">
+						<a href="images/g1.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g1.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Ya-Ya Salgados</h4>
+										<span class="separator"></span>
+										<p>11</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 baner-top wow fadeInLeft animated" data-wow-delay=".5s">
+						<a href="images/g2.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g2.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Ya-Ya Salgados</h4>
+										<span class="separator"></span>
+										<p>12</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/c5.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/c5.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Ya-Ya Salgados</h4>
+										<span class="separator"></span>
+										<p>13</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated" data-wow-delay=".5s">
+						<a href="images/c2.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/c2.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Ya-Ya Salgados</h4>
+										<span class="separator"></span>
+										<p>14</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/c3.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/c3.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Ya-Ya Salgados</h4>
+										<span class="separator"></span>
+										<p>15</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated" data-wow-delay=".5s">
+						<a href="images/c4.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/c4.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Ya-Ya Salgados</h4>
+										<span class="separator"></span>
+										<p>16</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 baner-top wow fadeInRight animated" data-wow-delay=".5s">
+						<a href="images/g7.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g7.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Ya-Ya Salgados</h4>
+										<span class="separator"></span>
+										<p>17</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 baner-top wow fadeInLeft animated" data-wow-delay=".5s">
+						<a href="images/g8.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g8.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Ya-Ya Salgados</h4>
+										<span class="separator"></span>
+										<p>18</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+	</div>
+<!-- //gallery -->
+
+  <!--bottom-->
+	    <div class="bottom">
+		<div class="container">
+		       <div class="bottom-top">
+			    <h3 class=" wow flipInX"  data-wow-duration="1s" data-wow-delay=".3s">19</h3>
+				<span>20</span>
+				   <p class="wow slideInDown" data-wow-duration="1s" data-wow-delay=".5s">21</p>
+				   <div class="start wow flipInX"  data-wow-duration="1s" data-wow-delay=".3s">
+						     <a href="single.html" class="hvr-bounce-to-bottom">Ler Mais</a>
+						  </div>
+			   </div>
+		</div>
+	</div>
+
+	 <!--/contact-->
+	

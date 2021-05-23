@@ -1,0 +1,21 @@
+ <div class="about-section">
+				<div class="col-md-7 ab-left">
+				  <div class="grid">
+			        <div class="h-f wow slideInLeft"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+					<img src="images/c20.jpg" alt="img25"/>
+						<figcaption>
+							<h4>Ya-Ya <span>Salgados</span></h4>
+							<p>01</p>
+							
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="h-f wow slideInLeft"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+						<img src="images/c7.jpg" alt="img25"/>
+						<figcaption>
+							<h4>Ya-Ya <span>Salgados</span></h4>
+							<p>02</p>
+							

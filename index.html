@@ -1,0 +1,798 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>Ya Ya Salgados</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Honest Food Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+<link href="css/iconeffects.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<link rel="stylesheet" href="css/swipebox.css">
+<script src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+
+	<link href='//fonts.googleapis.com/css?family=Italianno' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+
+</head>
+<body>
+		<div class="banner" id="home">
+		<div class="header-bottom wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">
+		     <div class="container">
+			  <div class="fixed-header">
+			       <div class="logo">
+                      <a href="index.html"><h1>Ya-Ya <span>Salgados</span></h1></a>		  
+				   </div>
+					<div class="top-menu">
+							<span class="menu"> </span>
+							<nav class="link-effect-4" id="link-effect-4">
+                              <ul>
+								 <li class="active"><a data-hover="" href="" class="scroll"></a></li>
+								 <li><a data-hover="home" href="#slider4" class="scroll">Home</a></li>
+								<li><a data-hover="inicio" href="#inicio" class="scroll">Inicio</a></li>
+							    <li><a data-hover="Cardápio" href="#menu" class="scroll">Cardápio</a></li>
+								<li><a data-hover="Eventos" href="#eventos" class="scroll">Eventos</a></li>
+								<li><a data-hover="Informações" href="#informacao" class="scroll">Informações</a></li>
+								<li><a data-hover="Contatos" href="#contatos" class="scroll">Contatos</a></li>
+								</ul>
+							</nav>
+							</div>
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+
+				 <div class="clearfix"></div>
+					<script>
+				$(document).ready(function() {
+					 var navoffeset=$(".header-bottom").offset().top;
+					 $(window).scroll(function(){
+						var scrollpos=$(window).scrollTop(); 
+						if(scrollpos >=navoffeset){
+							$(".header-bottom").addClass("fixed");
+						}else{
+							$(".header-bottom").removeClass("fixed");
+						}
+					 });
+					 
+				});
+				</script>
+			 </div>
+		</div>
+	</div>
+		<div class="banner-slider">
+				<div class="callbacks_container">
+					<ul class="rslides" id="slider4">
+					    <li>
+						
+						   <div class="banner-info">
+							      <h3 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Bem-Vindos</h3>
+								  <p class="wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">Ao Ya-Ya Salgados</p>
+								     <div class="arrows wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s"><img src="images/goat4.png" alt="goat4"/></div>
+								
+							  </div>
+						</li>
+						<li>
+						   <div class="banner-info">
+							    <h3 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Proprietário</h3>
+								 <p class="wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">Fabio Luis Correa</p>
+								  <div class="arrows wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s"><img src="images/goat4.png" alt="goat4"/></div>
+
+							  </div>
+						</li>
+						<li>
+						   <div class="banner-info">
+							      <h3 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Realizado por</h3>
+								  <p class="wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">GWE</p>
+								   <div class="arrows wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s"><img src="images/goat4.png" alt="goat4"/></div>
+
+						   </div>
+					  </li>
+					</ul>
+			  </div>
+	  	<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    $(function () {
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager:true,
+			        nav:false,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+	     
+		 </div>
+
+		  <div class="home" id="home">
+		     <div class="container">
+		
+			  
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="clearfix"> </div>
+				 </div>
+			   </div>
+			   <div class="inicio" id="inicio">
+			<div class="container">
+		
+			   <div class="col-md-15 ab-text">
+			             <h3 class="tittle wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">Bem-Vindos</h3>
+						  <div class="arrows-two wow slideInDown"  data-wow-duration="1s" data-wow-delay=".5s"><img src="images/goat2.png" alt="goat2"/></div>
+						  <h2 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Seja Bem-Vindo ao Site do Ya-Ya Salgados, aqui você poderá ver o nosso cardápio e algumas curiosidades acessando nossas páginas na Web.</h2><br><br>
+						  <h1>Por que do nome da loja?</h1><br>
+						  <h2 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">O nome veio por causa das minhas filhas, Yasmin e Yara, por passar muito tempo no trabalho e pouco com elas, esta foi a forma encontrada de estar sempre em suas companhias.</h2><br><br>
+						 <h1>Por que a escolha dos Salgados?</h1><br>
+						  <h2 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Por ser um mercado atual e estar em crescimento resolvi inovar o ramo de salgados, acrescentando novas formas e sabores.</h2><br><br>
+						 <h1>Maiores Dificuldades</h1><br>
+						  <h2 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">A maior dificuldade encontrada foi achar o ponto correto da massa e sabores de recheio, logo após resolver esse problema que durou 1 ano e meio. Outro passo foi encontrar a localização do estabelecimento. Após superar os obstáculos abrir minha primeira loja, a Ya-Ya Salgados</h2>
+
+					</div>
+					<div class="clearfix"> </div>
+			 </div>
+			 
+			</div>
+	     </div>
+		 <div class="menu" id="menu">
+		     <div class="container">
+	
+			  
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="clearfix"> </div>
+				 </div>
+			   </div>
+			   <div class="col-md-15 ab-text">
+
+		<div class="menu" id="menu">
+<div class="container">
+		
+			   <div class="col-md-15 ab-text">
+			             <h3 class="tittle wow slideInDown" data-wow-duration="1s" data-wow-delay=".3s">Cardápio</h3>
+						  <div class="arrows-two wow slideInDown"  data-wow-duration="1s" data-wow-delay=".5s"><img src="images/goat2.png" alt="goat2"/></div>
+						  
+						  
+						  
+						  
+						  <h2 data-wow-duration="1s" data-wow-delay=".3s">Burger</h2>
+					
+					
+					
+					
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/oi6.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/oi6.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Bacon</h4>
+										<span class="separator"></span>
+										<h2>R$14,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/oi2.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/oi2.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Bacon D</h4>
+										<span class="separator"></span>
+										<h2>R$17,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/oi7.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/oi7.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Barbecue</h4>
+										<span class="separator"></span>
+										<h2>R$18,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/oi5.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/oi5.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Big YaYa</h4>
+										<span class="separator"></span>
+										<h2>R$16,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+									
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/oi11.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/oi11.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Duplo</h4>
+										<span class="separator"></span>
+										<h2>R$16,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/oi.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/oi.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Grandioso</h4>
+										<span class="separator"></span>
+										<h2>R$27,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/oi4.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/oi4.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Grandioso II</h4>
+										<span class="separator"></span>
+										<h2>R$32,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					
+						  <div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/oi12.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/oi12.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Nervoso</h4>
+										<span class="separator"></span>
+										<h2>R$20,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					 <div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/oi15.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/oi15.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Pizza</h4>
+										<span class="separator"></span>
+										<h2>R$14,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+						  
+						   <div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/oi3.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/oi3.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Sensação</h4>
+										<span class="separator"></span>
+										<h2>R$18,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+						  
+						  
+						  <div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/oi14.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/oi14.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>X-Salada</h4>
+										<span class="separator"></span>
+										<h2>R$12,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+						  
+						   <div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/oi10.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/oi10.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Explosão</h4>
+										<span class="separator"></span>
+										<h2>R$12,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a><br>
+					</div>
+						  
+						  
+					
+			             <h2 data-wow-duration="1s" data-wow-delay=".3s">Bebidas</h2>
+						 
+						 
+						 
+						 
+						 
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/H2O.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/H2O.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>H20</h4>
+										<span class="separator"></span>
+										<h2>R$5,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/refrilata.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/refrilata.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Refri Lata</h4>
+										<span class="separator"></span>
+										<h2>R$4,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/sucolata.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/sucolata.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Suco Lata</h4>
+										<span class="separator"></span>
+										<h2>R$5,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/refri2l.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/refri2l.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Refri 2L</h4>
+										<span class="separator"></span>
+										<h2>R$8,50</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/redbull.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/redbull.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Red Bull</h4>
+										<span class="separator"></span>
+										<h2>R$8,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/gatorade.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/gatorade.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Gatorete</h4>
+										<span class="separator"></span>
+										<h2>R$6,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/cocacafe.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/cocacafe.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Coca Café</h4>
+										<span class="separator"></span>
+										<h2>R$8,50</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/sucomaquina.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/sucomaquina.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Suco Máquina</h4>
+										<span class="separator"></span>
+										<h2>R$1,50</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/agua.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/agua.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Água</h4>
+										<span class="separator"></span>
+										<h2>R$2,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/sucoacai.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/sucoacai.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Suco de Açaí­</h4>
+										<span class="separator"></span>
+										<h2>R$7,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/coca2l.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/coca2l.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Coca 2L</h4>
+										<span class="separator"></span>
+										<h2>R$10,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/dolinho.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/dolinho.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Dolinho</h4>
+										<span class="separator"></span>
+										<h2>R$2,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					   <h2 data-wow-duration="1s" data-wow-delay=".3s">Gelatos</h2>
+						 									 
+						 <div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/acai.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/acai.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Açaí­ 250</h4>
+										<span class="separator"></span>
+										<h2>R$8,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				
+					
+					
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					   <h2 data-wow-duration="1s" data-wow-delay=".3s">Salgados</h2>						 
+						 			
+					
+					 <div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/coxinhadoce.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/coxinhadoce.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Coxinha Doce</h4>
+										<span class="separator"></span>
+										<h2>R$5,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a><br>
+					</div>
+					
+					
+					
+					 <div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/alimentos/porcaodecarne.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/alimentos/porcaodecarne.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Porção de Carne</h4>
+										<span class="separator"></span>
+										<h2>R$24,50</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					
+				
+					 <div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/alimentos/tapioca.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/alimentos/tapioca.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Tapioca</h4>
+										<span class="separator"></span>
+										<h2>R$5,00</h2>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					</div>
+					<div class="clearfix"> </div>
+			 </div>
+			 
+			</div>
+	     </div>
+		  <div class="section-contact" id="eventos">
+	    <div class="container">
+           <div class="contact-main">
+		   
+		   
+		   
+		   
+		   </div></div></div>
+		   
+ <div class="section-contact" id="informacao">
+	    <div class="container">
+           <div class="contact-main">
+		     <div class="col-md-15 ab-text">
+			             <h3 class="tittle wow slideInDown" data-wow-duration="1s" data-wow-delay=".3s">Eventos</h3>
+						  <div class="arrows-two wow slideInDown"  data-wow-duration="1s" data-wow-delay=".5s"><img src="images/goat2.png" alt="goat2"/></div>
+						  
+						  
+						 <div>
+						<a href="images/eventos/coisa.jpg">
+							<div class="gal-spin-effect vertical ">
+								<h2 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s"><input type="image" src="images/eventos/coisa.jpg"><br>Um ambiente animado e descontraído com música ao vivo</h2>
+
+							</div>
+						</a>
+					</div>
+					 
+					
+				</div></div></div>
+			<br><br>
+	  
+					<div class="col-md-6 contact-in wow fadeInUp"  data-wow-duration="1s" data-wow-delay=".5s">
+						<h4 class="info">Informações </h4>
+
+						<div class="con-top">
+							<h4>Local</h4>
+								<ul>
+								<li>São Paulo</li> 
+								<li>Jardim Nakamura</li>  
+								<li>Rua Manuel Vitor de Jesus</li> 
+								<li>N° 344</li> 
+								<li>(11) 98236-9517</li>
+								<li> Segunda á  Sexta 08:30 - 20:00</li>
+								<li> Sabado e Domigo 08:30 - 21:00</li>
+								<li><a>fabio88luis@gmail.com</a></li>
+							  </ul>
+						</div>
+						<div class="con-top two">
+							<h4>Local</h4>
+							<ul>
+								<li>Em Breve</li> 
+								<li>Em Breve</li>  
+								<li>Em Breve</li> 
+								<li>Em Breve</li> 
+								<li>Em Breve</li>
+								<li>Em Breve</li>
+								<li>Em Breve</li>
+								<li><a href="#"></a></li>
+							</ul>								
+						</div>
+					</div>
+					
+						<div class="clearfix"> </div>
+			      </div>
+
+			 </div>
+		</div>
+		
+		</div>
+	  </div>
+	</div>
+	
+					   
+					   <div class="single" id="contatos">
+
+		<div class="footer text-center">
+						<div class="container">
+					
+								   <div class="logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+									  <a href="index.html"><h1>Ya-Ya <span>Salgados</span></h1></a>
+									 
+								   </div>
+			
+								<a href="#" class="flag_tag2">Alguma outra duvida?</a>
+									<ul class="social wow slideInDown" data-wow-duration="1s" data-wow-delay=".3s">
+										<li><a href="https://www.instagram.com/yayaburguer/" class="ga"> </a></li>
+										<li><a href="https://www.facebook.com/yayasalgados-100650018046210/" class="dott"></a></li>
+										 <div class="clearfix"></div>
+									</ul>
+									<p class="copy-right wow fadeInUp"  data-wow-duration="1s" data-wow-delay=".3s">"Eu não tenho medo de errar, eu tenho costume." <br>J.<br>&copy; Somos todos Ya-Ya</p>
+
+					 </div>
+	     </div>
+		 
+							
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

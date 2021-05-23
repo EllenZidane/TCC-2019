@@ -1,0 +1,35 @@
+ <div class="section-contact" id="contato">
+	    <div class="container">
+           <div class="contact-main">
+				    <div class="col-md-6 contact-grid wow fadeInUp"  data-wow-duration="1s" data-wow-delay=".3s">
+					<h3 class="tittle wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Cadastro</h3>
+						<div class="arrows-three"><img src="images/border.png" alt="border"></div>
+							<p class="wel-text wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".4s"></p>
+						    <form id="filldetails">
+					  <div class="field name-box">
+							<input type="text" id="name" placeholder="Quem és vosmecê?" required=""/>
+							<label for="name">Name</label>
+							<span class="ss-icon">check</span>
+					  </div>
+					  
+					  <div class="field email-box">
+							<input type="text" id="email" placeholder="examplo@email.com" required=""/>
+							<label for="email">Email</label>
+							<span class="ss-icon">check</span>
+					  </div>
+					  
+					  <div class="field phonenum-box">
+							<input type="text" id="email" placeholder="numero de telefone" required=""/>
+							<label for="email">Telefone</label>
+							<span class="ss-icon">check</span>
+					  </div>
+					  <div class="field phonenum-box">
+							<input type="text" id="email" placeholder="bairro, rua e numero" required=""/>
+							<label for="email">Endereço</label>
+							<span class="ss-icon">check</span>
+					  </div>
+
+						<div class="send wow shake"  data-wow-duration="1s" data-wow-delay=".3s">
+											<input type="submit" value="Cadastrar" >
+										</div>
+			  </form>
